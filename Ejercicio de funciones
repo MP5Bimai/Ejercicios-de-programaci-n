@@ -1,0 +1,33 @@
+Ejercicio 1 {
+
+	int suma (int a, int b, int c) {
+		int resultado;
+		resultado = a + b + c;
+
+		return resultado;
+	}
+
+	void main (String[] args) {
+		int suma (1,2,3);
+		System.out.println(suma);
+	}
+
+}
+
+Ejercicio 2 {
+	
+	void main (String[] args) {
+		Coche miCoche = new Coche();
+		miCoche.AñadirPuerta();
+		System.out.println(miCoche.Puertas);
+
+	}
+
+	class Coche {
+		int Puertas = 4;
+
+		void AñadirPuerta(){
+			this.Puertas++
+		}
+	}
+}
